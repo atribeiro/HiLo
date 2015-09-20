@@ -14,7 +14,7 @@ public class ConsoleMessageService implements MessageService{
 
     @Override
     public void displayMessage(String message) {
-        System.out.println();
+        System.out.println(message);
     }
 
     @Override
